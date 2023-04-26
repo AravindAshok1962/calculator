@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.calculator{
+    width: 300px;
+    height: 430px;
+    background-color: rgb(192, 187, 190);
+    border: 5px ridge rgba(27, 240, 211, 0.89);
+    border-radius: 25px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.712), 0px 6px 20px 0  rgba(0, 0, 0, 0.651);
+}
+label{
+    color:black;
+    float: right;
+    margin-right:20px ;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+input{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 25px 10px;
+    padding: 2px 10px;
+    background-color: rgb(28, 129, 28);
+    font-weight: 400;
+    font-size: 20px;
+    border: 4px ridge rgba(15, 77, 29, 0.185);
+    box-shadow: 0px 8px 15px 0 rgb(51, 50, 50);
+}
+button{
+    width: 50px;
+    height: 30px;
+    margin: 10px 8px;
+    border: 0;
+    border-radius:10px ;
+    box-shadow: 0px 2px 2px 0 rgba(148, 3, 3, 0.664);
+}
+button:hover{
+    scale: 1.05;
+}
+.key{
+    background-color: rgb(17, 150, 228);
+    box-shadow: black;
+}
+.num{
+    background-color:black;
+    color:white;
+}
+.cal{
+    width: 300px;
+    height: auto;
+    background-color: rgb(32, 32, 105);
+    border-radius: 10px;
+    
+}
+.col{
+    background-color:none;
+    margin: 5px 10px;
+    background-color: brown;
+    border-radius: 5px;
+    height: 30px;
+    
+}
+.operator{
+    background-color: rgb(18, 140, 180);
+    box-shadow: 0px 2px 2px 0 rgb(184, 46, 46);
+}
+#onoff{
+    font-size: 10px;
+    font-weight: 600;
+}
